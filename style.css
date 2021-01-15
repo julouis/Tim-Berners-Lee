@@ -1,0 +1,79 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+body {
+    font-family: OpenSans-Regular;
+    width: 500px;
+    margin: auto;
+}
+
+section {
+    border: 0.3px solid rgb(151, 133, 133);
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+#photo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px inset rgb(156, 145, 145);
+    box-shadow: 1px rgb(160, 151, 151);
+    background-image: url(images/tim_berners_lee.jpeg);
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+}
+
+.portrait {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.portrait h1 {
+    font-family: OpenSans-ExtraBold;
+    color: rgb(177, 59, 59);
+    font-weight: 200;
+    text-align: center;
+}
+
+.portrait h2 {
+    font-size: large;
+    color: rgb(97, 87, 87);
+    text-align: center;
+}
+
+.portrait p {
+    color: rgb(160, 151, 151);
+    font-size: 15px;
+    text-align: justify;
+}
+
+#button {
+    text-align: center;
+}
+
+.links {
+    padding-top: ;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+.links .fab {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
